@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bugs, Bytes & Baper</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="#" onclick="tampilkan('beranda')">Beranda</a></li>
+      <li><a href="#" onclick="tampilkan('tentang')">Tentang</a></li>
+      <li><a href="#" onclick="tampilkan('blog')">Blog</a></li>
+      <li><a href="#" onclick="tampilkan('kontak')">Kontak</a></li>
+    </ul>
+  </nav>
+
+  <section id="beranda" class="halaman aktif">
+    <h1>Bugs, Bytes & Baper</h1>
+    <p>Karena yang error bukan cuma kode, tapi juga hati 🧠❤️</p>
+  </section>
+
+  <section id="tentang" class="halaman">
+    <h2>Tentang Saya</h2>
+    <img src="profil.jpg" alt="Foto Profil" class="foto-profil">
+    <p><strong>Putri wahyu lestari</strong><br>NIM: 2356202021<br>Prodi: Rekayasa Komputer</p>
+    <p>Mahasiswa yang lebih sering debugging perasaan dibanding program. Cita-cita: lulus tepat waktu tanpa syntax error di hidup.</p>
+  </section>
+
+<section id="blog" class="halaman">
+  <h2>Blog</h2>
+
+  <div class="card">
+    <h3>Ngoding Ditinggal Typo</h3>
+    <p>Katanya masalah kecil, tapi bikin project gagal compile. Sama kayak dia, pergi cuma karena salah paham kecil.</p>
+  </div>
+
+  <div class="card">
+    <h3>Debugging Perasaan</h3>
+    <p>Udah dicari bug-nya di mana-mana, ternyata masalahnya bukan di kode — tapi di akunya yang terlalu berharap.</p>
+  </div>
+
+  <div class="card">
+    <h3>Final_Final_Fix_Beneran.html</h3>
+    <p>Versi terakhir yang ke-17. Sama kayak move on yang gak jadi-jadi.</p>
+  </div>
+
+  <div class="card">
+    <h3>printf(\"Kangen\")</h3>
+    <p>Kode berhasil jalan. Tapi dia tetap nggak balik.</p>
+  </div>
+
+  <div class="card">
+    <h3>Ngoding Tanpa Mood</h3>
+    <p>Seperti ngejalanin hubungan tanpa kejelasan. Jalan aja, tapi gak tahu mau ke mana.</p>
+  </div>
+</section>
+
+  <section id="kontak" class="halaman">
+  <h2>Kontak</h2>
+  <p style="margin-bottom: 1rem; font-style: italic; color: #6a1b1a;">
+    Jangan DM, isi form aja dulu 📨
+  </p>
+  <form>
+    <label>Nama</label>
+    <input type="text" required>
+
+    <label>Email</label>
+    <input type="email" required>
+
+    <label>Pesan</label>
+    <textarea required></textarea>
+
+    <button type="submit">Kirim</button>
+  </form>
+</section>
+
+
+  <footer>
+    🦋 — Mood Masih dalam Perbaikan 💻
+  </footer>
+
+</body>
+</html>
